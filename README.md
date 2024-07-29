@@ -5,6 +5,7 @@ Repository for a Docker image of the Pixelmon Minecraft mod
 Use ./run.sh to run or use below setup for docker-compose
 
 ```
+services:
   pixelmon:
     container_name: pixelmon
     image: walthowd/pixelmon
